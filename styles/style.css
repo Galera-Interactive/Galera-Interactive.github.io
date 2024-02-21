@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Franchise';
+	src: url('../assets/fonts/Franchise-Regular.woff2') format('woff2'),
+		url('../assets/fonts/Franchise-Regular.woff') format('woff'),
+		url('../assets/fonts/Franchise.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	margin: 0 auto;
+	background-color: rgb(50, 50, 50);
+	color: #F7EFE5;
+}
+
+main {
+	padding: 20px;
+}
+
+phrase1 {
+	font-family: "poppins";
+	font-weight: 600;
+	font-size: 35;
+
+	color: #FD5825;
+}
+
+phrase1 s {
+	color: crimson;
+}

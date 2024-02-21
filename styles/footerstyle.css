@@ -1,0 +1,54 @@
+
+
+footer {
+	display: flex;
+	padding-top: 20px;
+	height: 30px;
+	/* this leaves a tiny gap under the header */
+
+	background-color: black;
+
+	
+	font-family: "Franchise";
+	font-size: 30;
+}
+
+#footer-title {
+	align-items: center;
+	margin-left: 50px;
+	flex-direction: column;
+	line-height: 5px;
+}
+
+#footer-buttons {
+	height: 50px;
+	line-height: 50px;
+	padding-bottom: 8px;
+}
+
+#footer-buttons ul {
+	vertical-align: top;
+}
+
+#footer-buttons ul li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#footer-buttons a {
+	font-family: "poppins";
+	font-weight: 500;
+	font-size: 30px;
+
+	text-decoration: none;
+	text-transform: capitalize;
+
+	color: #F7EFE5;
+}
+
+#footer-buttons a:hover {
+	color: black;
+	background-color: #FD5825;
+	transition: 0.3s all;
+}
