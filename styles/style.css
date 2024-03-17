@@ -26,6 +26,37 @@ phrase1 {
 	color: #FD5825;
 }
 
+h2 {
+	font-family: "poppins";
+	font-weight: 500;
+	font-size: 25;
+
+	color: #FFFFFF;
+}
+
 phrase1 s {
 	color: crimson;
+}
+
+.game-link {
+	font-family: "poppins";
+	font-weight: 600;
+	font-size: 20;
+	text-decoration: none;
+
+	color: #25a7fd;
+}
+
+gameshowcase {
+	overflow: hidden;
+	display: flex;
+	height: 400px;
+	padding-top: 100px;
+}
+
+gameshowcase .game-showcase-mask {
+	mask-image: url('../assets/images/luminance-mask.png');
+	mask-mode: luminance;
+	mask-repeat: no-repeat;
+	mask-size: calc(100% - 30px);
 }
