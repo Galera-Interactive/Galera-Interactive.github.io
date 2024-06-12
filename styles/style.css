@@ -1,21 +1,16 @@
-@font-face {
-	font-family: 'Franchise';
-	src: url('../assets/fonts/Franchise-Regular.woff2') format('woff2'),
-		url('../assets/fonts/Franchise-Regular.woff') format('woff'),
-		url('../assets/fonts/Franchise.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
 body {
 	margin: 0 auto;
 	background-color: rgb(50, 50, 50);
 	color: #F7EFE5;
 }
 
-main {
-	padding: 20px;
+aboutus {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+aboutus h2 {
+	padding-left: 40px;
 }
 
 phrase1 {
@@ -47,10 +42,14 @@ phrase1 s {
 	color: #25a7fd;
 }
 
+.game-link:hover {
+	color: #FD5825;
+	text-decoration: underline;
+}
+
 gameshowcase {
 	overflow: hidden;
 	display: flex;
-	height: 400px;
 	padding-top: 100px;
 }
 

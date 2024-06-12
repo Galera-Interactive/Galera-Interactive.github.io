@@ -1,22 +1,18 @@
 header h1 {
-	font-family: "Franchise";
+	font-family: "Cascadia Code";
 	font-size: 50;
 }
 
 header h2 {
-	font-family: "Franchise";
-	font-size: 30;
-	margin-left: 30px;
+	font-family: "Cascadia Code";
+	font-size: 24;
+	margin-left: 40px;
 }
 
 header {
 	display: flex;
-	align-items: end;
-
 	padding-top: 30px;
-	padding-bottom: 4px;
-	/* this leaves a tiny gap under the header */
-
+	margin-bottom: 30px;
 	background-color: black;
 }
 
@@ -26,37 +22,64 @@ header {
 	line-height: 5px;
 }
 
-#header-buttons {
-	align-items: normal;
-	height: 50px;
-	line-height: 50px;
-	padding-bottom: 8px;
+/* -------------------------------------------------------------------------- */
+/*                               Social buttons                               */
+/* -------------------------------------------------------------------------- */
+#social-buttons-right {
+	width: 100%;
+	padding-right: 40px;
+	padding-left: 40px;
+	display: flex;
+	align-items: end;
 }
 
-#header-buttons ul {
-	vertical-align: bottom;
+#social-buttons-right #social-buttons-space {
+	width: 100%;
 }
 
-#header-buttons ul li {
-	display: inline-block;
-	margin-left: 20px;
-	margin-right: 20px;
+#social-buttons-right ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	align-content: flex-end;
 }
 
-#header-buttons a {
-	font-family: "poppins";
-	font-weight: 500;
-	font-size: 30px;
-
+#social-buttons-right ul a {
 	text-decoration: none;
-	text-transform: capitalize;
-
-	color: #F7EFE5;
+	color: wheat;
+	font-family: "poppins";
+	font-size: 25px;
+	font-weight: 600;
+	padding: 10px;
 }
 
-#header-buttons a:hover {
-	color: black;
-	background-color: #FD5825;
-	transition: 0.3s all;
+#social-buttons-right ul a:hover {
+	text-decoration: underline;
 	cursor: cell;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              About us buttons                              */
+/* -------------------------------------------------------------------------- */
+#about-us-buttons {
+	width: 100%;
+	display: flex;
+}
+
+#about-us-buttons ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	align-content: flex-end;
+}
+
+#about-us-buttons ul a {
+	text-decoration: none;
+	color: wheat;
+	font-family: "poppins";
+	font-size: 25px;
+	font-weight: 600;
+	padding: 10px;
 }
