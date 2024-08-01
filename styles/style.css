@@ -13,6 +13,19 @@ aboutus h2 {
 	padding-left: 40px;
 }
 
+aboutus ul {
+	list-style-type: none;
+}
+
+aboutus ul li {
+	text-decoration: none;
+	color: white;
+	font-family: "poppins";
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px;
+}
+
 phrase1 {
 	font-family: "poppins";
 	font-weight: 600;
@@ -58,4 +71,19 @@ gameshowcase .game-showcase-mask {
 	mask-mode: luminance;
 	mask-repeat: no-repeat;
 	mask-size: calc(100% - 30px);
+}
+
+separator {
+	overflow: hidden;
+	display: flex;
+	padding-top: 1cm;
+	background-color: black;
+}
+
+#meet-gang {
+	width: 100%;
+	padding-right: 40px;
+	padding-left: 40px;
+	display: flex;
+	align-items: end;
 }
